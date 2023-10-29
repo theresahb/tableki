@@ -43,7 +43,7 @@ const HomeNavbar = () => {
             </div>
             <button type='submit' className="flex justify-center items-center gap-1 border border-[#00000025] rounded-md px-2 py-1 md:hidden">
                 <div className="">
-                    <Image src='/assets/icon-target-white.svg' width={30} height={30} />
+                    <Image src='/assets/icon-city-point.svg' width={30} height={30} />
                 </div>
                 <p className='text-white text-sm'>Kyiv</p>
             </button>
