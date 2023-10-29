@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none">
+	<rect width="6" height="6" x="8" y="8" stroke="#3B9C25" stroke-width="2" rx="3"/>
+	<mask id="a" fill="#fff">
+		<rect width="8" height="8" x="17" y="7" rx="1"/>
+	</mask>
+	<rect width="8" height="8" x="17" y="7" stroke="#3B9C25" stroke-width="4" mask="url(#a)" rx="1"/>
+	<mask id="b" fill="#fff">
+		<rect width="8" height="8" x="7" y="17" rx="1"/>
+	</mask>
+	<rect width="8" height="8" x="7" y="17" stroke="#3B9C25" stroke-width="4" mask="url(#b)" rx="1"/>
+	<rect width="6" height="6" x="18" y="18" stroke="#3B9C25" stroke-width="2" rx="3"/>
+</svg>
