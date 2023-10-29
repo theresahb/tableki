@@ -11,7 +11,7 @@ const HomeTab = () => {
                 <Link href={item.link}>
                     <button type='submit' key={item.id} className="tab flex flex-col justify-center items-center gap-1 px-2 py-1 hover:text-primaryColor transition duration-700 ease-in-out">
                         <Image src={item.image} width={30} height={30} className='tab-filter w-6' />
-                        <small className='small text-[#817b7b] sx:text-[.5rem] md:text-base'>{item.text}</small>
+                        <small className='small text-[#817b7b] sx:text-[.6rem] md:text-base'>{item.text}</small>
                     </button>
                 </Link>
             ))}
