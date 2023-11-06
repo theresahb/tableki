@@ -1,6 +1,6 @@
 import React from 'react'
-import Layout from '../components/Layout/Layout'
-import { cart } from '../data'
+import Layout from '../../components/Layout/Layout'
+import { cart } from '../../data'
 import Head from 'next/head'
 
 const Reserve = () => {

@@ -24,11 +24,13 @@ const Alphabets = () => {
                     </div>
                     <div className="">
                         {alphabets[active] && 
-                            <div className='flex items-center gap-x-8 gap-y-4 flex-wrap'>{alphabets[active].content.map((item) => (
-                                <p key={item.id} className='text-sm hover:text-primaryColor hover:underline'>
-                                    <a href="#">{item.text}</a>
-                                </p>
-                            ))}</div>
+                            <div className='flex items-center gap-x-8 gap-y-4 flex-wrap'>
+                                {alphabets[active].content.map((item) => (
+                                    <p key={item.id} className='text-sm hover:text-primaryColor hover:underline'>
+                                        <a href="#">{item.text}</a>
+                                    </p>
+                                ))}
+                            </div>
                         }
                     </div>
                 </div>

@@ -9,8 +9,8 @@ const Help = () => {
                 <Image src={`/assets/home-page-apteka.svg`} width={500} height={100} />
             </div>
             <div className="flex flex-col gap-4 w-full">
-                <h3 className='text-xl font-medium'>
-                    We  help you find  better deals and  reserve products at discounted prices at pharmacies near you
+                <h3 className='text-xl font-medium md:text-2xl'>
+                    We <span className='text-orange-500'>help you find</span> better deals and <span className='text-orange-500'>reserve products</span> at discounted prices at pharmacies near you
                 </h3>
                 <p>
                     You don’t have to run around pharmacies looking for all the necessary products, but find them and book 

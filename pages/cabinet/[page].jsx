@@ -29,7 +29,7 @@ const CabinetPage = ({ page }) => {
                         <h3 className='text-lg font-medium'>Personal Office</h3>
                         <ul className="flex flex-col gap-6">
                             <li className='text-sm font-light border-b border-gray-300 pb-4 hover:underline active:text-primaryColor'><Link href={'/cabinet/login'}>LOGIN / REGISTRATION</Link></li>
-                            <li className='text-sm font-light border-b border-gray-300 pb-4 hover:underline active:text-primaryColor'>MY AMOR</li>
+                            <li className='text-sm font-light border-b border-gray-300 pb-4 hover:underline active:text-primaryColor'><Link href={'/reserve/history'}>MY AMOR</Link></li>
                             <li className='text-sm font-light border-b border-gray-300 pb-4'>MY PRODUCT LISTS</li>
                             <ul className="flex flex-col gap-4 pl-4">
                                 <li className='text-sm font-light hover:underline active:text-primaryColor'><Link href={'/cabinet/goodsHistory'}>REVISED</Link></li>

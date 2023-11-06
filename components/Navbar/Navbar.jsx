@@ -36,10 +36,15 @@ const Navbar = () => {
             </div>
             <div className="hidden justify-center items-center gap-4 md:flex">
                 {navIcons.map((item) => (
-                    <Link href={item.link} key={item.id}>
+                    <Link href={item.link} key={item.id} className='relative'>
                         <div key={item.id} className="">
                             <Image src={item.image} width={30} height={30} />
                         </div>
+                        {item.text ? 
+                            <div className="flex justify-center items-center absolute left-4 -top-1 bg-orange-500 w-4 h-4 rounded-full">
+                                <small className="flex justify-center items-center text-[.7rem] text-white">{item.text}</small>
+                            </div>
+                        : null}
                     </Link>
                 ))}
             </div>

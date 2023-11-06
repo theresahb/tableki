@@ -1,3 +1,13 @@
+import nav1 from './public/assets/icon-catalog-white.svg'
+import nav2 from './public/assets/icon-services-white.svg'
+import nav3 from './public/assets/icon-target-white.svg'
+
+import services1 from './public/assets/icon-services-list.svg'
+import services2 from './public/assets/icon-services-point.svg'
+import services3 from './public/assets/icon-services-dr.svg'
+import services4 from './public/assets/icon-services-extended.svg'
+import services5 from './public/assets/icon-services-defective.svg'
+
 import icon1 from './public/assets/icon-list-white.svg'
 import icon2 from './public/assets/icon-cart-white.svg'
 import icon3 from './public/assets/icon-user-white.svg'
@@ -72,16 +82,117 @@ import profile1 from './public/assets/icon-user-reserv.svg'
 import profile2 from './public/assets/icon-user-selected.svg'
 import profile3 from './public/assets/icon-pharmacies.svg'
 
+export const navTabs = [
+    {
+        id: 1,
+        image: nav1,
+        text: 'Catalogue',
+        content : [
+            {
+                id: 1,
+                image: side1,
+                text: 'Medicines and prophylactics',
+            },
+            {
+                id: 2,
+                image: side2,
+                text: 'Vitamins and minerals',
+            },
+            {
+                id: 3,
+                image: side3,
+                text: 'Beauty and care',
+            },
+            {
+                id: 4,
+                image: side4,
+                text: 'Sports and health',
+            },
+            {
+                id: 5,
+                image: side5,
+                text: 'Goods for children and mothers',
+            },
+            {
+                id: 6,
+                image: side6,
+                text: 'Medical products',
+            },
+            {
+                id: 7,
+                image: side7,
+                text: 'Orthopedics and rehabilitation',
+            },
+            {
+                id: 8,
+                image: side8,
+                text: 'Medical equipment',
+            },
+            {
+                id: 9,
+                image: side9,
+                text: 'Products for animals',
+            },
+            {
+                id: 10,
+                image: side10,
+                text: 'The entire product catalogue',
+            },
+
+        ]
+    },
+    {
+        id: 2,
+        image: nav2,
+        text: 'Services',
+        content : [
+            {
+                id: 1,
+                image: services1,
+                text: 'Search for several products at once',
+            },
+            {
+                id: 2,
+                image: services2,
+                text: 'Pharmacies nearby',
+            },
+            {
+                id: 3,
+                image: services3,
+                text: 'Search by active substance',
+            },
+            {
+                id: 4,
+                image: services4,
+                text: 'Advanced search',
+            },
+            {
+                id: 5,
+                image: services5,
+                text: 'Defective series',
+            },
+
+        ]
+    },
+    {
+        id: 3,
+        image: nav3,
+        text: 'Kyiv',
+    },
+]
+
 export const navIcons = [
     {
         id: 1,
         image: icon1,
         link: '/shoppinglist/',
+        text: '+'
     },
     {
         id: 2,
         image: icon2,
         link: '/reserve/',
+        text: '0'
     },
     {
         id: 3,
@@ -108,12 +219,14 @@ export const tab = [
         image: tab3,
         link: '/reserve/',
         text: 'Basket',
+        subtext: '+',
     },
     {
         id: 4,
         image: tab4,
         link: '/shoppinglist/',
         text: 'Shopping list',
+        subtext: '+',
     },
     {
         id: 5,
@@ -787,6 +900,24 @@ export const cart = [
     },
 ]
 
+export const history = [
+    {
+        id: 1,
+        text: 'Armor history is empty',
+        subtext: `You haven't booked anything yet. If you are registered on the Tabletki.ua website and you had bookings, you need to log in to see them.`,
+    },
+    {
+        id: 2,
+        text: 'Why book?',
+        subtext: `You will be sure that the ordered products are waiting for you at the pharmacy at the specified price.`,
+    },
+    {
+        id: 3,
+        text: 'How to make a reservation?',
+        subtext: `Find a product or make a shopping list . Choose a pharmacy where it is convenient to pick up everything and press the "Book" button.`,
+    },
+]
+
 export const shopTab = [
     {
         id: 1,
@@ -824,7 +955,7 @@ export const cabinet = [
     {
         id: 2,
         image: profile1,
-        link: '/reserve/',
+        link: '/reserve/history',
         text: 'My Armor',
     },
     {

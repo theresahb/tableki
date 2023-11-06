@@ -52,7 +52,7 @@ const Login = () => {
                                 <div className="flex flex-col gap-6">
                                     <h3 className='text-lg font-medium'>Log in through a social network:</h3>
                                     <div className="flex flex-col gap-3">
-                                        <button type="submit" className='bg-[#202124] px-8 py-2 text-gray-200'>Вхід через Google</button>
+                                        <button type="submit" className='bg-[#202124] px-8 py-2 text-gray-200'>Sign in with Google</button>
                                         <button type="submit" className='bg-blue-600 px-8 py-2 text-white'>Facebook</button>
                                         <p className='text-sm font-light text-primaryColor opacity-80'><a href="#">Confidentiality Agreement</a></p>
                                     </div>
